@@ -1,0 +1,33 @@
+body {
+    background-color: #1E7E34;
+}
+
+.teste {
+
+    background-color: #F9F9F9;
+}
+
+
+@media (min-width: 360px) {
+    .teste {
+        width: 350px;
+    }
+}
+
+@media (min-width: 576px) {
+    .teste {
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) {
+    .teste {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .teste {
+        width: 600px;
+    }
+}
